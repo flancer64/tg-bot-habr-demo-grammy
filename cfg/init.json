@@ -1,0 +1,19 @@
+{
+  "@flancer32/teq-telegram-bot": {
+    "apiKeyTelegram": "..."
+  },
+  "@teqfw/core": {
+    "devMode": true
+  },
+  "@teqfw/web": {
+    "server": {
+      "secure": {
+        "cert": "path/to/the/cert",
+        "key": "path/to/the/key"
+      },
+      "port": 8080,
+      "useHttp1": true
+    },
+    "urlBase": "virtual.server.com"
+  }
+}

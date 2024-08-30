@@ -15,4 +15,8 @@ const path = join(bin, '..');
 
 // MAIN
 /* Run the teq-app from the given root path. */
-teq({path}).catch((e) => console.error(e));
+try {
+    teq({path}).catch((e) => console.error(e));
+} catch (e) {
+    debugger
+}

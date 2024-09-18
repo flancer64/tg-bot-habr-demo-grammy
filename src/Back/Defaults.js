@@ -15,7 +15,6 @@ export default class Demo_Back_Defaults {
 
     /**
      *
-     * @param {TeqFw_Web_Back_Defaults} MOD_WEB
      * @param {Demo_Shared_Defaults} SHARED
      */
     constructor(
